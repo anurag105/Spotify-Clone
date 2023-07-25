@@ -12,21 +12,83 @@
   
   <nav>
     <ul>
+      <li id="" class="spotifylogo"> <img src="images/spotifylogo.png" alt="Spotify"> Spotify</li>
       <li>Home </li>
       <li>About </li>
     </ul>
   </nav>
   <div class="container">
+    <div class="songlist"></div>
     <h1 class="large">Favourite Songs</h1>
-    <div class="songiteamcontainer ">
-        <div class="songtitle">
-            The Nights
+    <div class="songiteamcontainer">
+      <div class="song">
+        <img src="">
+        <div class="songtitle"> 
         </div>
+        <span class="playbutton"><span class="timestamp">2:53</span><i id="0" class="fa-solid songitemplay fa-1x fa-circle-play fa-lg"></i></span>
+      </div>
+      <div class="song">
+        <img src="">
+        <div class="songtitle">
+        </div>
+        <span class="playbutton"><span class="timestamp">3:21</span><i id="1" class="fa-solid songitemplay fa-1x fa-circle-play fa-lg"></i></span>
+      </div>
+      <div class="song">
+        <img src="">
+        <div class="songtitle"> 
+        </div>
+        <span class="playbutton"><span class="timestamp">4:28</span><i id="2" class="fa-solid songitemplay fa-1x fa-circle-play fa-lg"></i></span>
+      </div>
+      <div class="song">
+        <img src="">
+        <div class="songtitle"> 
+        </div>
+        <span class="playbutton"><span class="timestamp">4:13</span><i id="3" class="fa-solid songitemplay fa-1x fa-circle-play fa-lg"></i></span>
+      </div>
+      <div class="song">
+        <img src="">
+        <div class="songtitle"> 
+        </div>
+        <span class="playbutton"><span class="timestamp">3:12</span><i id="4" class="fa-solid songitemplay fa-1x fa-circle-play fa-lg"></i></span>
+      </div>
+      <div class="song">
+        <img src="">
+        <div class="songtitle"> 
+        </div>
+        <span class="playbutton"><span class="timestamp">3:07</span><i id="3" class="fa-solid songitemplay fa-1x fa-circle-play fa-lg"></i></span>
+      </div>
+      <div class="song">
+        <img src="">
+        <div class="songtitle"> 
+        </div>
+        <span class="playbutton"><span class="timestamp">2:37</span><i id="6" class="fa-solid songitemplay fa-1x fa-circle-play fa-lg"></i></span>
+      </div>
+      <div class="song">
+        <img src="">
+        <div class="songtitle"> 
+        </div>
+        <span class="playbutton"><span class="timestamp">3:28</span><i id="7" class="fa-solid songitemplay fa-1x fa-circle-play fa-lg"></i></span>
       </div>
 
     </div>
   </div>
- 
+  <div class="bottom">
+    <input type="range" id="progressbar" min="0" value="0" max="100">
+    <div class="icons">
+      <i  class="fa-solid fa-circle-arrow-left fa-lg" id="previousbutton" ></i>
+      <i  class="fa-solid fa-circle-play fa-lg" id="playbutton"></i>
+      <i  class="fa-solid fa-circle-arrow-right fa-lg" id="nextbutton" ></i>
+      <i class="fa-solid fa-play-pause"></i>
+    </div>
+    <div class="songinfo">
+      <img src="https://i.gifer.com/Nt6v.gif" id="gif" width="55" alt="">
+      <span id="currentsongname" > The Nights</span>
+      
+    </div>
+  </div>
+
+  <script src="script.js" defer="defer"></script>
+  <script src="https://kit.fontawesome.com/0020dbd532.js" crossorigin="anonymous"></script>
   
 
 </body>
